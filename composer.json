@@ -1,0 +1,28 @@
+{
+    "name": "asiries335/laravel-sentry-events",
+    "description": "Add Sentry event to listener in your app",
+    "type": "laravel-plugin",
+    "require": {
+        "sentry/sentry-laravel": ">=3.0.0",
+        "php": ">=7.2",
+        "guzzlehttp/promises": ">=2.0.1"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Asiries335\\LaravelSentryEvents\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "asiries335",
+            "email": "asiries335@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
